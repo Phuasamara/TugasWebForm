@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding: 20px 0;
+	color: #35706b;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding: 30px 25px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #35706b;
+	color: #fff;
+}
+.active {
+	background-color: #35706b;
+	color: #fff;
+}
+.banner {
+	height: 60vh;
+	background-image: url('../img/bcg.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(53, 112, 107, .6);
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section {
+	padding: 50px 0;
+}
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: #35706b;
+	margin-bottom: 20px;
+}
+.smk p {
+	color: #000000;
+	line-height: 20px;
+}
+.label {
+	background-color: #35706b;
+	color: #fff;
+}
